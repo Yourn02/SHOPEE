@@ -15,6 +15,10 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+
+            padding: 10px;
+
+            margin: 0px auto 0px auto;
         }
 
         .divpractice > .first {
@@ -31,13 +35,22 @@
             background-color: coral;
         }
     </style>
+     <script>
+        function hey () {
+            alert('hello!')
+        }
+    </script>
 </head>
 <body>
     <h1>MY REVIEW PAGES</h1>
     <h2> THIS IS Subtitle</h2>
     <div class="divpractice">
         <div class="first">FIRST </div>
-        <div class="second">SECOND</div>
+         <div class="second" id="second-box">
+            <button onclick="hey()">button first</button>
+            <button>button second</button>
+            <button>button third</button>
+        </div>
     </div>
 </body>
 </html>
