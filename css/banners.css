@@ -42,6 +42,7 @@
 .button-section > li > span {
     margin-bottom: auto;
 }
+
 .swiper {
     width: 815px;
 }
@@ -73,6 +74,6 @@
 }
 .floating {
     position: fixed;
-    right: 200px;
+    right: 100px;
     bottom: 100px;
 }
