@@ -1,0 +1,44 @@
+.banners {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+.left-banners {
+    margin-right: 5px;
+}
+.rolling-banners{
+    width: 820px;
+    border-radius: 2px;
+}
+.right-banners > img {
+    width: 400px;
+    border-radius: 2px;
+    margin-bottom: 3px;
+}
+.right-banners > img:first-child {
+    margin-bottom: 3px;
+}
+.button-section {
+    width: 1200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.button-section > li {
+    width: 90px;
+    height: 80px;
+    text-align: center;
+
+    cursor: pointer;
+}
+.button-section > li:hover > img {
+    width: 48px;
+    margin-bottom: 6px;
+}
+.button-section > li > img {
+    width: 45px;
+    margin-bottom: 5px;
+}
+.button-section > li > span {
+    margin-bottom: auto;
+}
